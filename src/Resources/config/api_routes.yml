@@ -1,0 +1,24 @@
+## YAML Template.
+parameters:
+    external_api_routes:
+        menuView:
+            path: %api.host%/api/menu-view/{onlineStatus}
+            method: load
+        recaptchaService:
+            path: %api.host%/api/recaptcha-service
+            method: load
+        isAccountConfirmed:
+            path: %api.host%/api/is-account-confirmed
+            method: store
+        confirmAccount:
+            path: %api.host%/api/confirm-account
+            method: store
+        resendConfirmCode:
+            path: %api.host%/api/resend-account-confirm-code
+            method: store
+        verifyRecaptchaResponse:
+            path: %api.host%/api/verify-recaptcha-service-response
+            method: store
+        footerMenuView:
+            path: %api.host%/api/footer-menu-view
+            method: load

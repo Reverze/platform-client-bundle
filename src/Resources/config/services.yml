@@ -1,0 +1,5 @@
+---
+services:
+    platform.client:
+        class: PlatformClientBundle\Service\PlatformClient
+        arguments: [ "@circle.restclient", %platform.provider.name%, %platform.provider.api.host%, %external_api_routes% ]

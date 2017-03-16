@@ -1,0 +1,6 @@
+#Parameters for PlatformClientBundle
+---
+parameters:
+    platform.provider.name: "Swayware"
+    platform.provider.api.host: "http://hbplay.swayware.eu/swauth/app_dev.php"
+    api.host: %platform.provider.api.host%
